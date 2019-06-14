@@ -24,6 +24,7 @@
       <e p="WeatherAPI" t="IncludeRecursive">
         <e p="ApiHelper.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="MainModel.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
