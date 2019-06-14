@@ -1,0 +1,11 @@
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\WeatherAPI.dll
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\WeatherAPI.pdb
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\obj\Debug\WeatherAPI.csprojAssemblyReference.cache
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\justi\RiderProjects\Weather App\WeatherAPI\obj\Debug\WeatherAPI.pdb

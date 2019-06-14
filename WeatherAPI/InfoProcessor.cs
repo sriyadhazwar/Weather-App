@@ -6,7 +6,7 @@ namespace WeatherAPI
 {
     public class InfoProcessor
     {
-        public static async Task<MainModel> LoadResults()
+        public static async Task<MainModel> LoadMainResults()
         {
             string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
                          "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
@@ -22,5 +22,7 @@ namespace WeatherAPI
                 throw new Exception(response.ReasonPhrase);
             }
         }
+        
+        
     }
 }
