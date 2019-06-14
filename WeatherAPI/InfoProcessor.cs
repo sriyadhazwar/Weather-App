@@ -1,6 +1,7 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
 namespace WeatherAPI
 {
@@ -23,6 +24,21 @@ namespace WeatherAPI
             }
         }
         
-        
+        public static async Task<WeatherModel> LoadWeatherResults()
+        {
+            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
+                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
+
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    WeatherResultsModel results = await response.Content.ReadAsAsync<WeatherResultsModel>();
+                    return results.Weather[0];
+                }
+                
+                throw new Exception(response.ReasonPhrase);
+            }
+        }
     }
 }

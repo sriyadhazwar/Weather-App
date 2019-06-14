@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using System.Windows;
 using WeatherAPI;
 
@@ -15,6 +14,9 @@ namespace Display
         private int maxtemp;
         private double pressure;
         private double humidity;
+
+        private string weatherType;
+        private string description;
         
         public MainWindow()
         {
@@ -25,6 +27,7 @@ namespace Display
 
         private void DisplayData()
         {
+            MessageBox.Show(description);
         }
 
         private async void LoadInfo()
@@ -35,7 +38,10 @@ namespace Display
             maxtemp = ToFahrenheit(mainInfo.Max_Temp);
             pressure = mainInfo.Pressure;
             humidity = mainInfo.Humidity;
-            
+
+            var weatherInfo = await InfoProcessor.LoadWeatherResults();
+            weatherType = weatherInfo.Main;
+            description = weatherInfo.Description;
             
             DisplayData();
         }
