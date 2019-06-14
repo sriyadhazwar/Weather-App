@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Display", "Display\Display.csproj", "{755CAE4C-F5FB-4CED-940A-CDEB8183C1C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAPI", "WeatherAPI\WeatherAPI.csproj", "{19463BFA-65E0-4047-A0AB-651D592E44AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{755CAE4C-F5FB-4CED-940A-CDEB8183C1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755CAE4C-F5FB-4CED-940A-CDEB8183C1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755CAE4C-F5FB-4CED-940A-CDEB8183C1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19463BFA-65E0-4047-A0AB-651D592E44AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19463BFA-65E0-4047-A0AB-651D592E44AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19463BFA-65E0-4047-A0AB-651D592E44AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19463BFA-65E0-4047-A0AB-651D592E44AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
