@@ -21,6 +21,8 @@ namespace Display
         private int windSpeed;
         private int windDegrees;
         private double gust;
+
+        private int cloudPercentage;
         
         public MainWindow()
         {
@@ -31,7 +33,7 @@ namespace Display
 
         private void DisplayData()
         {
-            MessageBox.Show(windSpeed.ToString());
+            MessageBox.Show(cloudPercentage.ToString());
         }
 
         private async void LoadInfo()
@@ -51,6 +53,9 @@ namespace Display
             windSpeed = (int) Math.Round(windInfo.Speed);
             windDegrees = (int) Math.Round(windInfo.Deg);
             gust = windInfo.Gust;
+
+            var cloudsInfo = await InfoProcessor.LoadCloudsResults();
+            cloudPercentage = cloudsInfo.All;
             
             DisplayData();
         }
