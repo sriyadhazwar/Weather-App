@@ -27,6 +27,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="InfoProcessor.cs" t="Include" />
         <e p="Models" t="Include">
+          <e p="CityNameModel.cs" t="Include" />
           <e p="CloudsModel.cs" t="Include" />
           <e p="MainModel.cs" t="Include" />
           <e p="WeatherModel.cs" t="Include" />

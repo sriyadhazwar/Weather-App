@@ -74,5 +74,22 @@ namespace WeatherAPI
                 throw new Exception(response.ReasonPhrase);
             }
         }
+        
+        public static async Task<CityNameModel> LoadCityNameResults()
+        {
+            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
+                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
+
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    CityNameModel result = await response.Content.ReadAsAsync<CityNameModel>();
+                    return result;
+                }
+                
+                throw new Exception(response.ReasonPhrase);
+            }
+        }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows;
 using WeatherAPI;
 
 namespace Display
@@ -23,6 +22,8 @@ namespace Display
         private double gust;
 
         private int cloudPercentage;
+
+        private string cityName;
         
         public MainWindow()
         {
@@ -33,7 +34,6 @@ namespace Display
 
         private void DisplayData()
         {
-            MessageBox.Show(cloudPercentage.ToString());
         }
 
         private async void LoadInfo()
@@ -56,6 +56,9 @@ namespace Display
 
             var cloudsInfo = await InfoProcessor.LoadCloudsResults();
             cloudPercentage = cloudsInfo.All;
+
+            var cityNameInfo = await InfoProcessor.LoadCityNameResults();
+            cityName = cityNameInfo.Name;
             
             DisplayData();
         }

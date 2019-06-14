@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ApiHelper.cs" />
     <Compile Include="InfoProcessor.cs" />
+    <Compile Include="Models\CityNameModel.cs" />
     <Compile Include="Models\CloudsModel.cs" />
     <Compile Include="Models\MainModel.cs" />
     <Compile Include="Models\WeatherModel.cs" />
