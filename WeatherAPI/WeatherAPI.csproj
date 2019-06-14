@@ -49,11 +49,13 @@
   <ItemGroup>
     <Compile Include="ApiHelper.cs" />
     <Compile Include="InfoProcessor.cs" />
-    <Compile Include="MainModel.cs" />
-    <Compile Include="MainModelResults.cs" />
+    <Compile Include="Models\MainModel.cs" />
+    <Compile Include="Models\WeatherModel.cs" />
+    <Compile Include="Models\WindModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherModel.cs" />
-    <Compile Include="WeatherResultsModel.cs" />
+    <Compile Include="Results\MainModelResults.cs" />
+    <Compile Include="Results\WeatherResultsModel.cs" />
+    <Compile Include="Results\WindResultsModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

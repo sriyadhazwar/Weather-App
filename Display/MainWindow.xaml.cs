@@ -17,6 +17,10 @@ namespace Display
 
         private string weatherType;
         private string description;
+
+        private int windSpeed;
+        private int windDegrees;
+        private double gust;
         
         public MainWindow()
         {
@@ -27,7 +31,7 @@ namespace Display
 
         private void DisplayData()
         {
-            MessageBox.Show(description);
+            MessageBox.Show(windSpeed.ToString());
         }
 
         private async void LoadInfo()
@@ -42,6 +46,11 @@ namespace Display
             var weatherInfo = await InfoProcessor.LoadWeatherResults();
             weatherType = weatherInfo.Main;
             description = weatherInfo.Description;
+
+            var windInfo = await InfoProcessor.LoadWindResults();
+            windSpeed = (int) Math.Round(windInfo.Speed);
+            windDegrees = (int) Math.Round(windInfo.Deg);
+            gust = windInfo.Gust;
             
             DisplayData();
         }
