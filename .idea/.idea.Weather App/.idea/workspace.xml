@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="" />
+    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -38,6 +41,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <marker date="1560492102163" expanded="true" signature="51:204" ph="{...}" />
+                <marker date="1560492102163" expanded="true" signature="84:202" ph="{...}" />
+                <marker date="1560492102163" expanded="true" signature="148:196" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -46,12 +63,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/MainModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/MainModelResults.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/WeatherAPI/Class1.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/ApiHelper.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/MainModel.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/MainModelResults.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" />
       </list>
     </option>
   </component>
@@ -149,12 +172,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560491605254</updated>
-      <workItem from="1560491606582" duration="248000" />
+      <workItem from="1560491606582" duration="493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248000" />
+    <option name="totallyTimeSpent" value="493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,6 +253,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/MainModelResults.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <marker date="1560492025832" expanded="true" signature="20:114" ph="{...}" />
+            <marker date="1560492025832" expanded="true" signature="56:112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/MainModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1560491987556" expanded="true" signature="20:284" ph="{...}" />
+            <marker date="1560491987556" expanded="true" signature="49:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -239,6 +284,18 @@
             <marker date="1560491838389" expanded="true" signature="75:457" ph="{...}" />
             <marker date="1560491838389" expanded="true" signature="104:455" ph="{...}" />
             <marker date="1560491838389" expanded="true" signature="214:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <marker date="1560492102163" expanded="true" signature="51:204" ph="{...}" />
+            <marker date="1560492102163" expanded="true" signature="84:202" ph="{...}" />
+            <marker date="1560492102163" expanded="true" signature="148:196" ph="{...}" />
           </folding>
         </state>
       </provider>

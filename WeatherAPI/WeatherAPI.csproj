@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiHelper.cs" />
+    <Compile Include="InfoProcessor.cs" />
     <Compile Include="MainModel.cs" />
     <Compile Include="MainModelResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
