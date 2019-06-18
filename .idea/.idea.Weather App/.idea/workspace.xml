@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/CityInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/Models/ResultsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAPI/bin/Debug/cities.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Display.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Display.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/WeatherAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/WeatherAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/WeatherAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/WeatherAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Display/packages.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/Results/CloudsResultsModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/Results/MainModelResults.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/Results/WeatherResultsModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/Results/WindResultsModel.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherAPI/bin/Debug/WeatherAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/bin/Debug/WeatherAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeatherAPI/bin/Debug/WeatherAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/bin/Debug/WeatherAPI.pdb" afterDir="false" />
@@ -30,76 +47,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <marker date="1560752462278" expanded="true" signature="0:1375" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;        &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt;&#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt;&#10;        &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                  IsEditable=&quot;True&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1560752462278" expanded="true" signature="448:1365" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                  IsEditable=&quot;True&quot;/&gt;.../&gt;" />
+                <marker date="1560752462278" expanded="true" signature="463:701" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
+                <marker date="1560752462278" expanded="true" signature="710:890" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
+                <marker date="1560752462278" expanded="true" signature="1234:1353" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+              <folding>
+                <marker date="1560492495231" expanded="true" signature="6:53" ph="..." />
+                <marker date="1560492495231" expanded="true" signature="75:457" ph="{...}" />
+                <marker date="1560492495231" expanded="true" signature="104:455" ph="{...}" />
+                <marker date="1560492495231" expanded="true" signature="214:449" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="90" column="42" selection-start-line="89" selection-start-column="23" selection-end-line="90" selection-end-column="42" />
+            <state relative-caret-position="120">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1560495190515" expanded="true" signature="6:94" ph="..." />
-                <marker date="1560495190515" expanded="true" signature="116:3739" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="149:3737" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="217:823" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="491:813" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="542:722" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="900:1518" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="1174:1508" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="1225:1417" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="1589:2195" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="1863:2185" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="1914:2094" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="2270:2882" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="2544:2872" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="2595:2781" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="2961:3731" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="3235:3721" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="3286:3630" ph="{...}" />
-                <marker date="1560495190515" expanded="true" signature="3457:3612" ph="/* CityNameResultsModel results = await response.Content.ReadAsAsync&lt;CityNameResultsModel&gt;(); ... */" />
+                <marker date="1560730427735" expanded="true" signature="6:66" ph="..." />
+                <marker date="1560730427735" expanded="true" signature="88:2780" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="128:2778" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="257:699" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="375:689" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="426:598" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="776:1224" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="894:1214" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="945:1123" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1295:1737" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1413:1727" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1464:1636" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1812:2256" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1930:2246" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="1981:2155" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="2335:2772" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="2453:2762" ph="{...}" />
+                <marker date="1560730427735" expanded="true" signature="2504:2671" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/CityNameResultsModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <marker date="1560494738765" expanded="true" signature="20:122" ph="{...}" />
-                <marker date="1560494738765" expanded="true" signature="60:120" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="878">
+              <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
               <folding>
-                <marker date="1560494587233" expanded="true" signature="6:53" ph="..." />
-                <marker date="1560494587233" expanded="true" signature="72:2109" ph="{...}" />
-                <marker date="1560494587233" expanded="true" signature="79:157" ph="/// Interaction logic for MainWindow.xaml ... " />
-                <marker date="1560494587233" expanded="true" signature="193:2107" ph="{...}" />
-                <marker date="1560494587233" expanded="true" signature="632:753" ph="{...}" />
-                <marker date="1560494587233" expanded="true" signature="789:848" ph="{...}" />
-                <marker date="1560494587233" expanded="true" signature="887:1881" ph="{...}" />
-                <marker date="1560494587233" expanded="true" signature="1930:2101" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <marker date="1560494482802" expanded="true" signature="20:108" ph="{...}" />
-                <marker date="1560494482802" expanded="true" signature="53:106" ph="{...}" />
+                <marker date="1560820603448" expanded="false" signature="6:220" ph="..." />
+                <marker date="1560820603448" expanded="true" signature="239:3871" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="246:324" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1560820603448" expanded="true" signature="360:3869" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="879:1001" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="1044:1655" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="1177:1645" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="1276:1631" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="1691:1905" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="1944:2938" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="2995:3166" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="3241:3393" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="3469:3621" ph="{...}" />
+                <marker date="1560820603448" expanded="true" signature="3655:3863" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,20 +140,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/MainModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/Results/MainModelResults.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/Results/WeatherResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/CityInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CloudsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WindModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/Results/WindResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/Results/CloudsResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/ResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/Results/CityNameResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,11 +165,17 @@
         <option value="$PROJECT_DIR$/WeatherAPI/Models/WindModel.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/Results/WindResultsModel.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/Models/CloudsModel.cs" />
-        <option value="$PROJECT_DIR$/WeatherAPI/Results/CloudsResultsModel.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/Results/CityNameResultsModel.cs" />
-        <option value="$PROJECT_DIR$/Display/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/Results/CloudsResultsModel.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/Results/ResultsModel.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs" />
         <option value="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" />
+        <option value="$PROJECT_DIR$/Display/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/WeatherAPI/City.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/CityInfo.cs" />
+        <option value="$PROJECT_DIR$/Display/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -156,9 +187,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="6" />
+    <option name="y" value="32" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,7 +199,6 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -178,25 +209,19 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="WeatherAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Display" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
               <item name="WeatherAPI" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="WeatherAPI" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Results" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,12 +280,14 @@
       <updated>1560491605254</updated>
       <workItem from="1560491606582" duration="1941000" />
       <workItem from="1560493602494" duration="53000" />
-      <workItem from="1560493673915" duration="1510000" />
+      <workItem from="1560493673915" duration="3653000" />
+      <workItem from="1560665898720" duration="6700000" />
+      <workItem from="1560818583570" duration="2030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3504000" />
+    <option name="totallyTimeSpent" value="14377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,6 +302,34 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1482602" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.528754" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="XAML Preview" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3290735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14372164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -301,7 +356,7 @@
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -317,72 +372,17 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="CityUrl" />
+        <watch expression="cityName" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WeatherAPI/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/MainModelResults.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <marker date="1560492025832" expanded="true" signature="56:112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1560491601495" expanded="true" signature="0:485" ph="&lt;&lt;Grid&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1560491601495" expanded="true" signature="448:475" ph="&lt;.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
-          <folding>
-            <marker date="1560492495231" expanded="true" signature="6:53" ph="..." />
-            <marker date="1560492495231" expanded="true" signature="75:457" ph="{...}" />
-            <marker date="1560492495231" expanded="true" signature="104:455" ph="{...}" />
-            <marker date="1560492495231" expanded="true" signature="214:449" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5775">
-          <caret line="412" column="12" selection-start-line="412" selection-start-column="12" selection-end-line="412" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <marker date="1560493320236" expanded="true" signature="20:155" ph="{...}" />
-            <marker date="1560493320236" expanded="true" signature="52:153" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/WeatherResultsModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1560493743839" expanded="true" signature="20:125" ph="{...}" />
-            <marker date="1560493743839" expanded="true" signature="59:123" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/MainModelResults.cs" />
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/WeatherResultsModel.cs" />
     <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/WindModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -394,17 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/WindResultsModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <marker date="1560493975087" expanded="true" signature="20:114" ph="{...}" />
-            <marker date="1560493975087" expanded="true" signature="56:112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/WindResultsModel.cs" />
     <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/MainModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -427,28 +417,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/CloudsResultsModel.cs">
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/CityNameResultsModel.cs" />
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/ResultsModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1560494376618" expanded="true" signature="20:120" ph="{...}" />
-            <marker date="1560494376618" expanded="true" signature="58:118" ph="{...}" />
+            <marker date="1560542322579" expanded="true" signature="20:254" ph="{...}" />
+            <marker date="1560542322579" expanded="true" signature="52:252" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <marker date="1560494482802" expanded="true" signature="20:108" ph="{...}" />
             <marker date="1560494482802" expanded="true" signature="53:106" ph="{...}" />
@@ -456,58 +440,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Results/CityNameResultsModel.cs">
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <marker date="1560494738765" expanded="true" signature="20:122" ph="{...}" />
-            <marker date="1560494738765" expanded="true" signature="60:120" ph="{...}" />
+            <marker date="1560542049493" expanded="true" signature="20:155" ph="{...}" />
+            <marker date="1560542049493" expanded="true" signature="52:153" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs">
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1560494587233" expanded="true" signature="6:53" ph="..." />
-            <marker date="1560494587233" expanded="true" signature="72:2109" ph="{...}" />
-            <marker date="1560494587233" expanded="true" signature="79:157" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1560494587233" expanded="true" signature="193:2107" ph="{...}" />
-            <marker date="1560494587233" expanded="true" signature="632:753" ph="{...}" />
-            <marker date="1560494587233" expanded="true" signature="789:848" ph="{...}" />
-            <marker date="1560494587233" expanded="true" signature="887:1881" ph="{...}" />
-            <marker date="1560494587233" expanded="true" signature="1930:2101" ph="{...}" />
+            <marker date="1560542445127" expanded="true" signature="20:78" ph="{...}" />
+            <marker date="1560542445127" expanded="true" signature="55:76" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <marker date="1560752462278" expanded="true" signature="0:1375" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;        &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt;&#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt;&#10;        &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                  IsEditable=&quot;True&quot;/&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1560752462278" expanded="true" signature="448:1365" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                  IsEditable=&quot;True&quot;/&gt;.../&gt;" />
+            <marker date="1560752462278" expanded="true" signature="463:701" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
+            <marker date="1560752462278" expanded="true" signature="710:890" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
+            <marker date="1560752462278" expanded="true" signature="1234:1353" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+          <folding>
+            <marker date="1560492495231" expanded="true" signature="6:53" ph="..." />
+            <marker date="1560492495231" expanded="true" signature="75:457" ph="{...}" />
+            <marker date="1560492495231" expanded="true" signature="104:455" ph="{...}" />
+            <marker date="1560492495231" expanded="true" signature="214:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/City.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/bin/Debug/cities.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/CityInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1560819308969" expanded="true" signature="20:236" ph="{...}" />
+            <marker date="1560819308969" expanded="true" signature="48:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="412" column="12" selection-start-line="412" selection-start-column="12" selection-end-line="412" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="90" column="42" selection-start-line="89" selection-start-column="23" selection-end-line="90" selection-end-column="42" />
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1560495190515" expanded="true" signature="6:94" ph="..." />
-            <marker date="1560495190515" expanded="true" signature="116:3739" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="149:3737" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="217:823" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="491:813" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="542:722" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="900:1518" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="1174:1508" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="1225:1417" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="1589:2195" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="1863:2185" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="1914:2094" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="2270:2882" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="2544:2872" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="2595:2781" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="2961:3731" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="3235:3721" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="3286:3630" ph="{...}" />
-            <marker date="1560495190515" expanded="true" signature="3457:3612" ph="/* CityNameResultsModel results = await response.Content.ReadAsAsync&lt;CityNameResultsModel&gt;(); ... */" />
+            <marker date="1560730427735" expanded="true" signature="6:66" ph="..." />
+            <marker date="1560730427735" expanded="true" signature="88:2780" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="128:2778" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="257:699" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="375:689" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="426:598" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="776:1224" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="894:1214" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="945:1123" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1295:1737" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1413:1727" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1464:1636" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1812:2256" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1930:2246" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1981:2155" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2335:2772" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2453:2762" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2504:2671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
+          <folding>
+            <marker date="1560820603448" expanded="false" signature="6:220" ph="..." />
+            <marker date="1560820603448" expanded="true" signature="239:3871" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="246:324" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1560820603448" expanded="true" signature="360:3869" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="879:1001" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="1044:1655" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="1177:1645" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="1276:1631" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="1691:1905" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="1944:2938" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="2995:3166" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="3241:3393" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="3469:3621" ph="{...}" />
+            <marker date="1560820603448" expanded="true" signature="3655:3863" ph="{...}" />
           </folding>
         </state>
       </provider>

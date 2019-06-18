@@ -21,3 +21,4 @@ C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.csproj.CoreCo
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.csproj.CopyComplete
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.exe
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.pdb
+C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\AutoCompleteTextBoxWPF.dll

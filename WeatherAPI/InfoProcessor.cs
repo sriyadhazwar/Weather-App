@@ -1,22 +1,20 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
 
 namespace WeatherAPI
 {
-    public class InfoProcessor
+    public static class InfoProcessor
     {
+        public static string CityUrl { get; set; } 
+        
         public static async Task<MainModel> LoadMainResults()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
-                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
-
-            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(CityUrl))
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    MainModelResults results = await response.Content.ReadAsAsync<MainModelResults>();
+                    ResultsModel results = await response.Content.ReadAsAsync<ResultsModel>();
                     return results.Main;
                 }
                 
@@ -26,14 +24,11 @@ namespace WeatherAPI
         
         public static async Task<WeatherModel> LoadWeatherResults()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
-                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
-
-            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(CityUrl))
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    WeatherResultsModel results = await response.Content.ReadAsAsync<WeatherResultsModel>();
+                    ResultsModel results = await response.Content.ReadAsAsync<ResultsModel>();
                     return results.Weather[0];
                 }
                 
@@ -43,14 +38,11 @@ namespace WeatherAPI
         
         public static async Task<WindModel> LoadWindResults()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
-                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
-
-            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(CityUrl))
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    WindResultsModel results = await response.Content.ReadAsAsync<WindResultsModel>();
+                    ResultsModel results = await response.Content.ReadAsAsync<ResultsModel>();
                     return results.Wind;
                 }
                 
@@ -60,14 +52,11 @@ namespace WeatherAPI
         
         public static async Task<CloudsModel> LoadCloudsResults()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
-                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
-
-            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(CityUrl))
             {
                 if (response.IsSuccessStatusCode)
                 {
-                    CloudsResultsModel results = await response.Content.ReadAsAsync<CloudsResultsModel>();
+                    ResultsModel results = await response.Content.ReadAsAsync<ResultsModel>();
                     return results.Clouds;
                 }
                 
@@ -77,10 +66,7 @@ namespace WeatherAPI
         
         public static async Task<CityNameModel> LoadCityNameResults()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Cleveland,us" +
-                         "&APPID=18e0836ea2ae7d4ee1a6d43dfb38e393";
-
-            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(CityUrl))
             {
                 if (response.IsSuccessStatusCode)
                 {

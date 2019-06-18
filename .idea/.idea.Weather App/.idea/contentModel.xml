@@ -25,11 +25,14 @@
       <e p="WeatherAPI" t="IncludeRecursive">
         <e p="ApiHelper.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CityInfo.cs" t="Include" />
+        <e p="HourlyProcessor.cs" t="Include" />
         <e p="InfoProcessor.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="CityNameModel.cs" t="Include" />
           <e p="CloudsModel.cs" t="Include" />
           <e p="MainModel.cs" t="Include" />
+          <e p="ResultsModel.cs" t="Include" />
           <e p="WeatherModel.cs" t="Include" />
           <e p="WindModel.cs" t="Include" />
         </e>
@@ -37,12 +40,6 @@
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="Results" t="Include">
-          <e p="CloudsResultsModel.cs" t="Include" />
-          <e p="MainModelResults.cs" t="Include" />
-          <e p="WeatherResultsModel.cs" t="Include" />
-          <e p="WindResultsModel.cs" t="Include" />
         </e>
         <e p="WeatherAPI.csproj" t="IncludeRecursive" />
       </e>

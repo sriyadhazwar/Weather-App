@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Documents;
+using AutoCompleteTextBoxWPF;
+using Newtonsoft.Json;
 using WeatherAPI;
 
 namespace Display
@@ -8,6 +15,9 @@ namespace Display
     /// </summary>
     public partial class MainWindow
     {
+        private string cityUrl;
+        private List<CityInfo> cities;
+        
         private int temperature;
         private int minTemp;
         private int maxtemp;
@@ -28,12 +38,34 @@ namespace Display
         public MainWindow()
         {
             InitializeComponent();
+            GetCities();
             ApiHelper.InitializeClient();
-            LoadInfo();
+        }
+
+        private void SetCity(string name)
+        {
+            double longitude;
+            double latitude;
+            
+            for (int i = 0; i < cities.Count; i++)
+            {
+                if (cities[i].City.Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    longitude = cities[i].Longitude;
+                    latitude = cities[i].Latitude;
+                    cityUrl = $"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid=" +
+                               "18e0836ea2ae7d4ee1a6d43dfb38e393";
+                    return;
+                }
+            }
         }
 
         private void DisplayData()
         {
+            Block.Text += cityName + "\n";
+            Block.Text += description + "\n";
+            Block.Text += temperature + "F\n";
+            Block.Text += cloudPercentage + "% cloudy\n";
         }
 
         private async void LoadInfo()
@@ -62,13 +94,36 @@ namespace Display
             
             DisplayData();
         }
-
+        
         private int ToFahrenheit(double kelvin)
         {
             kelvin = kelvin - 273;
             kelvin = kelvin * 9 / 5;
             kelvin = kelvin + 32;
             return (int) Math.Round(kelvin);
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            SetCity("cleveland");
+            InfoProcessor.CityUrl = cityUrl;
+            Block.Text = "";
+            LoadInfo();
+        }
+
+        private void ButtonBase_OnClick2(object sender, RoutedEventArgs e)
+        {
+            SetCity("San Diego");
+            InfoProcessor.CityUrl = cityUrl;
+            Block.Text = "";
+            LoadInfo();
+        }
+
+        private void GetCities()
+        {
+            cities = new List<CityInfo>();
+            string jsonString = File.ReadAllText("cities.json");
+            cities = JsonConvert.DeserializeObject<List<CityInfo>>(jsonString);
         }
     }
 }
