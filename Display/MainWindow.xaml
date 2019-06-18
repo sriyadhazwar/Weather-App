@@ -5,23 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Display"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" x:Name="Block" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Grid.Column="0" Grid.Row="1" Content="Phoenix" Click="ButtonBase_OnClick"/>
-        <Button Grid.Column="1" Grid.Row="1" Content="Cleveland" Click="ButtonBase_OnClick2"/>
-        <ComboBox x:Name="InputText" Grid.Column="0" Grid.Row="2" Width="125" Margin="10"
-                  IsEditable="True"/>
-    </Grid>
+        WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" WindowState="Maximized"
+        Background="#263859"
+        Title="Weather" Height="500" Width="500">
+    
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    
 </Window>
