@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controls/WeatherButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Display/Controls/WeatherButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Display/style.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/App.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/Display.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Display.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/App.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" afterDir="false" />
@@ -19,8 +24,9 @@
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.lref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.i.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,37 +36,254 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+            <state relative-caret-position="278">
+              <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
               <folding>
-                <marker date="1560821629927" expanded="true" signature="0:651" ph="&lt;&lt;Frame x:Name=&quot;MainFrame&quot; NavigationUIVisibility=&quot;Hidden&quot;/&gt;.../&gt;" />
+                <marker date="1561008577031" expanded="false" signature="6:206" ph="..." />
+                <marker date="1561008577031" expanded="true" signature="225:3923" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="271:3921" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="881:1035" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="1086:1697" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="1219:1687" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="1318:1673" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="1733:1947" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="1986:2980" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="3037:3208" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="3291:3490" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="3524:3915" ph="{...}" />
+                <marker date="1561008577031" expanded="true" signature="3825:3905" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+            <state relative-caret-position="109">
+              <caret line="412" column="12" selection-start-line="412" selection-start-column="12" selection-end-line="412" selection-end-column="12" />
               <folding>
-                <marker date="1560821896684" expanded="false" signature="6:158" ph="..." />
-                <marker date="1560821896684" expanded="true" signature="177:3728" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="223:3726" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="792:946" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="997:1608" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="1130:1598" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="1229:1584" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="1644:1858" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="1897:2891" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="2948:3119" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="3202:3357" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="3391:3720" ph="{...}" />
-                <marker date="1560821896684" expanded="true" signature="3635:3710" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="0:554" ph="/* --------------------------------------------------------------------------- ... */" />
+                <marker date="1559360987517" expanded="true" signature="1289:47193" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="1296:1403" ph="/// Parsing class used to create an Windows Presentation Platform Tree ... " />
+                <marker date="1559360987517" expanded="true" signature="1431:46500" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="1446:24746" ph="Public Methods" />
+                <marker date="1559360987517" expanded="true" signature="1478:1783" ph="/// Reads XAML using the passed xamlText string, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="1835:2025" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="2035:2396" ph="/// Reads XAML using the passed xamlText, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="2477:2640" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="2650:2932" ph="/// Reads XAML from the passed stream,building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="3070:3249" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="3112:3199" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="3259:3553" ph="/// Reads XAML using the passed XmlReader, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="3694:3900" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="3736:3823" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="3910:4256" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="4423:4764" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="4465:4552" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="4591:4672" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="4774:5237" ph="/// Loads XAML from the given stream, building an object tree. ... " />
+                <marker date="1559360987517" expanded="true" signature="5284:5746" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="5326:5413" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="5483:5691" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="5756:6220" ph="/// Reads XAML using the given XmlReader, building an object tree. ... " />
+                <marker date="1559360987517" expanded="true" signature="6270:6454" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="6312:6399" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="6464:6990" ph="/// Loads XAML from the given stream, building an object tree. ... " />
+                <marker date="1559360987517" expanded="true" signature="7066:7816" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="7108:7195" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="7265:7473" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="7513:7594" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="7894:8254" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="7995:8170" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="8343:15937" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="8385:8472" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="8512:8593" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="8787:9166" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="8916:9026" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="9047:9152" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="9653:14439" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="10148:10333" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="10455:10573" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="10752:11038" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="12091:12180" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="12364:14425" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="12684:13102" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="12780:12888" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="12969:13080" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13186:14081" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13265:13494" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13362:13468" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13559:14059" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13642:13776" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="13841:14033" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="14169:14322" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="14471:14829" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="14693:14756" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="14866:15087" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="14921:15073" ph="/* ThreadStart threadStart = new ThreadStart(ReadXamlAsync); ... */" />
+                <marker date="1559360987517" expanded="true" signature="15104:15169" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="15218:15703" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="15476:15608" ph="/* else ... */" />
+                <marker date="1559360987517" expanded="true" signature="15790:15895" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="16105:16172" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="16268:16343" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="16451:17949" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="16625:17054" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="16859:17013" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17102:17322" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17362:17556" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17573:17939" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17625:17791" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17812:17925" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="17959:18046" ph="///  Post a queue item at default priority ... " />
+                <marker date="1559360987517" expanded="true" signature="18075:18144" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="18154:18247" ph="///  Post a queue item at the specified priority ... " />
+                <marker date="1559360987517" expanded="true" signature="18303:18497" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="18507:18574" ph="///  Dispatch delegate ... " />
+                <marker date="1559360987517" expanded="true" signature="18616:18714" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="18784:18851" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="18908:19030" ph="/// called when in async mode when get a time slice to read and load the Tree ... " />
+                <marker date="1559360987517" expanded="true" signature="19083:23170" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="19109:22036" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="19220:19480" ph="/* bool moreData = true; ... */" />
+                <marker date="1559360987517" expanded="true" signature="20000:20089" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="20300:22022" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="20675:21190" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="20750:20872" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="20933:21113" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="21212:21337" ph="/* Debug.Assert (1 &gt;= RootList.Count, &quot;Multiple roots not supported in async mode&quot;); ... */" />
+                <marker date="1559360987517" expanded="true" signature="21511:21614" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="21671:21746" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="21768:21886" ph="/* decrement and compare with zero so the unitialized -1  and zero case ... */" />
+                <marker date="1559360987517" expanded="true" signature="21929:22004" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22077:22142" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22174:22532" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22301:22378" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22399:22518" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22552:23160" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22630:22707" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22728:23146" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22877:22953" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="22978:23128" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="23213:23989" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="23236:23281" ph="/* if (ParseCompleted != null) ... */" />
+                <marker date="1559360987517" expanded="true" signature="23320:23810" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="24000:24364" ph="/// Aborts the current async load operation if there is one. ... " />
+                <marker date="1559360987517" expanded="true" signature="24398:24454" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="24464:24648" ph="/// This event is fired when either a sync or an async load operation has completed ... " />
+                <marker date="1559360987517" expanded="false" signature="24756:45289" ph="Internal Methods" />
+                <marker date="1559360987517" expanded="true" signature="24858:25102" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="25220:25751" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="25350:25710" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="25837:26026" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="26101:26290" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="26371:26582" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="26889:26954" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="26964:27310" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="27510:28009" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="27552:27639" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="27678:27759" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="28019:28313" ph="/// Reads XAML using the passed XmlReader, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="28495:28727" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="28537:28624" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="28737:29371" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="29380:29514" ph="/* Note this is the internal entry point for XPS.  XPS calls here so ... */" />
+                <marker date="1559360987517" expanded="true" signature="29659:29771" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="29781:30607" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+                <marker date="1559360987517" expanded="true" signature="30779:34534" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="30906:31060" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="31100:31181" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="31897:32000" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="32048:33471" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="32192:32615" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="32333:32455" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="32480:32597" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="33503:33861" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="33725:33788" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="33881:34499" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="33938:34058" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="34672:36151" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="34721:34802" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="34816:34988" ph="/* In some cases, the application constructor is not run prior to loading, ... */" />
+                <marker date="1559360987517" expanded="true" signature="35488:35754" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="35612:35740" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="35835:35945" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36217:37621" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36259:36346" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36394:36465" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36497:36971" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36849:36912" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="36991:37586" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="37048:37168" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="37631:38655" ph="/// Loads the given baml stream ... " />
+                <marker date="1559360987517" expanded="true" signature="38958:44238" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="39750:39853" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="39870:43403" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="39901:40076" ph="/* If the stream contains info about the Assembly that created it, ... */" />
+                <marker date="1559360987517" expanded="true" signature="40180:40295" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="40540:40695" ph="/* We do not set OwnsStream = true so the Baml2006Reader will not close the stream. ... */" />
+                <marker date="1559360987517" expanded="true" signature="40806:40917" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="41082:41246" ph="/* We don't actually use the GeneratedInternalTypeHelper any more. ... */" />
+                <marker date="1559360987517" expanded="true" signature="41343:42009" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="41385:41543" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="41564:41737" ph="/* This can perform attribute reflection which will fail if the assembly has unresolvable ... */" />
+                <marker date="1559360987517" expanded="true" signature="41777:41991" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="41882:41969" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="42058:42684" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="42343:42533" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="42561:42666" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="42705:42876" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="42983:43112" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="43201:43324" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="43424:44200" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="43481:43601" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="43827:43899" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="44278:44603" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="44317:44411" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="44460:44568" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="44680:44914" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="45006:45252" ph="{...}" />
+                <marker date="1559360987517" expanded="false" signature="45299:46494" ph="Data" />
+                <marker date="1559360987517" expanded="true" signature="46545:47191" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="46915:47185" ph="{...}" />
+                <marker date="1559360987517" expanded="true" signature="47106:47175" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Display/style.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <marker date="1560835226319" expanded="true" signature="171:2373" ph="&lt;&lt;Setter Property=&quot;HorizontalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;VerticalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;Padding&quot; Value=&quot;1&quot;/&gt; &lt;Setter Property=&quot;Template&quot;&gt;&#10;        &lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;&#10;    &lt;/Setter&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="466:2364" ph="&lt;&lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="503:2350" ph="&lt;&lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="530:2326" ph="&lt;&lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt; &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="593:1055" ph="&lt;&lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="634:1031" ph="&lt;&lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt; &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="740:867" ph="&lt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1072:2295" ph="&lt;&lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt; &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt; &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1119:1994" ph="&lt;&lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1187:1963" ph="&lt;&lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1266:1929" ph="&lt;&lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1313:1885" ph="&lt;&lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt; &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt; &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1400:1830" ph="&lt;&lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="1480:1753" ph="&lt;&lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt; &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2015:2251" ph="&lt;&lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2383:3391" ph="&lt;&lt;Setter Property=&quot;HorizontalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;VerticalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;Padding&quot; Value=&quot;1&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;White&quot;/&gt; &lt;Setter Property=&quot;Template&quot;&gt;&#10;        &lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;&#10;    &lt;/Setter&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2716:3382" ph="&lt;&lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type ComboBox}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2753:3368" ph="&lt;&lt;ControlTemplate TargetType=&quot;{x:Type ComboBox}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2780:3344" ph="&lt;&lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt; &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2845:3313" ph="&lt;&lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2886:3289" ph="&lt;&lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt; &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;.../&gt;" />
+                <marker date="1560835226319" expanded="true" signature="2994:3125" ph="&lt;&lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -69,15 +292,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
-                <marker date="1560821792779" expanded="true" signature="0:1486" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt;&#10;            &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot;/&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
-                <marker date="1560821792779" expanded="true" signature="466:1466" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot;/&gt;.../&gt;" />
-                <marker date="1560821792779" expanded="true" signature="541:807" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
-                <marker date="1560821792779" expanded="true" signature="820:1022" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
-                <marker date="1560821792779" expanded="true" signature="1035:1216" ph="&lt;.../&gt;" />
-                <marker date="1560821792779" expanded="true" signature="1329:1452" ph="&lt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="0:1726" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot;&#10;                       VerticalAlignment=&quot;Center&quot; Foreground=&quot;White&quot;/&gt;&#10;            &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot; MaxWidth=&quot;200&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; Style=&quot;{StaticResource WeatherComboBox}&quot;&#10;                      IsEnabled=&quot;True&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                    Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot;/&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="514:1706" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot;&#10;                       VerticalAlignment=&quot;Center&quot; Foreground=&quot;White&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot; MaxWidth=&quot;200&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; Style=&quot;{StaticResource WeatherComboBox}&quot;&#10;                      IsEnabled=&quot;True&quot;/&gt; &lt;Button Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                    Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot;/&gt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="589:855" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="868:1070" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="1096:1277" ph="&lt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="1290:1469" ph="&lt;.../&gt;" />
+                <marker date="1561007979907" expanded="true" signature="1482:1692" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -89,12 +313,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Display/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Controls/Page.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/style.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/ControlTemplate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Controls/WeatherButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/MainModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controls/WeatherButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -105,6 +334,7 @@
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CloudsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WindModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/ResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/App.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -132,6 +362,11 @@
         <option value="$PROJECT_DIR$/Display/DisplayPage.xaml.cs" />
         <option value="$PROJECT_DIR$/Display/DisplayPage.xaml" />
         <option value="$PROJECT_DIR$/Display/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Controls/Class1.cs" />
+        <option value="$PROJECT_DIR$/Controls/WeatherButton.cs" />
+        <option value="$PROJECT_DIR$/Display/Controls/WeatherButton.cs" />
+        <option value="$PROJECT_DIR$/Display/App.xaml" />
+        <option value="$PROJECT_DIR$/Display/style.xaml" />
         <option value="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" />
         <option value="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" />
       </list>
@@ -145,10 +380,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="32" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,11 +390,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,12 +457,14 @@
       <workItem from="1560665898720" duration="6700000" />
       <workItem from="1560818583570" duration="2379000" />
       <workItem from="1560821066165" duration="525000" />
-      <workItem from="1560821613713" duration="281000" />
+      <workItem from="1560821613713" duration="2670000" />
+      <workItem from="1560833738441" duration="1700000" />
+      <workItem from="1561007958944" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15532000" />
+    <option name="totallyTimeSpent" value="20238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,12 +479,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15279879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,7 +498,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.3290735" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.328" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="412" column="12" selection-start-line="412" selection-start-column="12" selection-end-line="412" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -497,39 +726,317 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controls/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Controls/WeatherButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <marker date="1560833407907" expanded="true" signature="96:117" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/Controls/WeatherButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1560833561511" expanded="true" signature="6:75" ph="..." />
+            <marker date="1560833561511" expanded="true" signature="145:469" ph="{...}" />
+            <marker date="1560833561511" expanded="true" signature="230:463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1560491615649" expanded="true" signature="24:95" ph="/// Interaction logic for App.xaml ... " />
+            <marker date="1560491615649" expanded="true" signature="124:136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <marker date="1560833766945" expanded="true" signature="0:396" ph="&lt;&lt;Application.Resources&gt;&#10;         &lt;ResourceDictionary&gt;&#10;             &lt;ResourceDictionary.Source&gt;&#10;                 &#10;             &lt;/ResourceDictionary.Source&gt;&#10;         &lt;/ResourceDictionary&gt;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1560833766945" expanded="true" signature="278:381" ph="&lt;&lt;ResourceDictionary&gt;&#10;             &lt;ResourceDictionary.Source&gt;&#10;                 &#10;             &lt;/ResourceDictionary.Source&gt;&#10;         &lt;/ResourceDictionary&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/ControlTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/style.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <marker date="1560835226319" expanded="true" signature="171:2373" ph="&lt;&lt;Setter Property=&quot;HorizontalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;VerticalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;Padding&quot; Value=&quot;1&quot;/&gt; &lt;Setter Property=&quot;Template&quot;&gt;&#10;        &lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;&#10;    &lt;/Setter&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="466:2364" ph="&lt;&lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="503:2350" ph="&lt;&lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="530:2326" ph="&lt;&lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;&#10;&#10;                &lt;/Grid&gt; &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;&#10;                &lt;/ControlTemplate.Triggers&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="593:1055" ph="&lt;&lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;&#10;                    &lt;/Border&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="634:1031" ph="&lt;&lt;Border.Background&gt;&#10;                            &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;TransformGroup&gt;&#10;                                        &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; &#10;                                                        ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                        &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                    &lt;/TransformGroup&gt;&#10;                                &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;GradientStop Offset=&quot;1&quot; Color=&quot;##00000000&quot;/&gt;&#10;                                &lt;GradientStop Offset=&quot;0.3&quot; Color=&quot;##FFFFFFFF&quot;/&gt;&#10;                            &lt;/RadialGradientBrush&gt;&#10;                        &lt;/Border.Background&gt; &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot;&#10;                                          VerticalAlignment=&quot;Center&quot;&#10;                                          TextElement.FontWeight=&quot;Bold&quot;&gt;&#10;                        &lt;/ContentPresenter&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="740:867" ph="&lt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1072:2295" ph="&lt;&lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt; &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                    &lt;/Trigger&gt; &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                        &lt;Setter Property=&quot;Opacity&quot; TargetName=&quot;grid&quot; Value=&quot;0.25&quot;/&gt;&#10;                    &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1119:1994" ph="&lt;&lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1187:1963" ph="&lt;&lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1266:1929" ph="&lt;&lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                    &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt;&#10;                                    &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;&#10;                                &lt;/RadialGradientBrush&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1313:1885" ph="&lt;&lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt; &lt;GradientStop Color=&quot;##00000000&quot; Offset=&quot;1&quot;/&gt; &lt;GradientStop Color=&quot;##FF303030&quot; Offset=&quot;0.3&quot;/&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1400:1830" ph="&lt;&lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="1480:1753" ph="&lt;&lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt; &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2015:2251" ph="&lt;&lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2383:3391" ph="&lt;&lt;Setter Property=&quot;HorizontalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;VerticalContentAlignment&quot; Value=&quot;Center&quot;/&gt; &lt;Setter Property=&quot;Padding&quot; Value=&quot;1&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;White&quot;/&gt; &lt;Setter Property=&quot;Template&quot;&gt;&#10;        &lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type Button}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;&#10;    &lt;/Setter&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2716:3382" ph="&lt;&lt;Setter.Value&gt;&#10;            &lt;ControlTemplate TargetType=&quot;{x:Type ComboBox}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;&#10;        &lt;/Setter.Value&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2753:3368" ph="&lt;&lt;ControlTemplate TargetType=&quot;{x:Type ComboBox}&quot;&gt;&#10;                &lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;                &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;&#10;            &lt;/ControlTemplate&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2780:3344" ph="&lt;&lt;Grid x:Name=&quot;grid&quot;&gt;&#10;                    &lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;4&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;1&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt; &lt;ControlTemplate.Triggers&gt;&#10;                    &lt;Trigger Property=&quot;IsPressed&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;Background&quot; TargetName=&quot;border&quot;&gt;&#10;                            &lt;Setter.Value&gt;&#10;                                &lt;RadialGradientBrush GradientOrigin=&quot;0.496,1.052&quot;&gt;&#10;                                    &lt;RadialGradientBrush.RelativeTransform&gt;&#10;                                        &lt;TransformGroup&gt;&#10;                                            &lt;ScaleTransform CenterX=&quot;0.5&quot; CenterY=&quot;0.5&quot; ScaleX=&quot;1.5&quot; ScaleY=&quot;1.5&quot;/&gt;&#10;                                            &lt;TranslateTransform X=&quot;0.02&quot; Y=&quot;0.3&quot;/&gt;&#10;                                        &lt;/TransformGroup&gt;&#10;                                    &lt;/RadialGradientBrush.RelativeTransform&gt;&#10;                                &lt;/RadialGradientBrush&gt;&#10;                            &lt;/Setter.Value&gt;&#10;                        &lt;/Setter&gt;&#10;                    &lt;/Trigger&gt;&#10;                    &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                        &lt;Setter Property=&quot;BorderBrush&quot; TargetName=&quot;border&quot; Value=&quot;##FF33962B&quot;/&gt;&#10;                        &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;                    &lt;/Trigger&gt;&#10;                &lt;/ControlTemplate.Triggers&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2845:3313" ph="&lt;&lt;Border x:Name=&quot;border&quot; CornerRadius=&quot;8&quot; BorderBrush=&quot;Black&quot; BorderThickness=&quot;2&quot;&gt;&#10;                        &lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt;&#10;                        &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;&#10;                    &lt;/Border&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2886:3289" ph="&lt;&lt;Border.Background&gt;&#10;                            &lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;&#10;                        &lt;/Border.Background&gt; &lt;ContentPresenter HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextElement.FontWeight=&quot;SemiBold&quot;/&gt;.../&gt;" />
+            <marker date="1560835226319" expanded="true" signature="2994:3125" ph="&lt;&lt;SolidColorBrush Color=&quot;##17223b&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
-            <marker date="1560821792779" expanded="true" signature="0:1486" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt;&#10;            &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot;/&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
-            <marker date="1560821792779" expanded="true" signature="466:1466" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Content=&quot;Phoenix&quot; Click=&quot;ButtonBase_OnClick&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Content=&quot;Cleveland&quot; Click=&quot;ButtonBase_OnClick2&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot;/&gt;.../&gt;" />
-            <marker date="1560821792779" expanded="true" signature="541:807" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
-            <marker date="1560821792779" expanded="true" signature="820:1022" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
-            <marker date="1560821792779" expanded="true" signature="1035:1216" ph="&lt;.../&gt;" />
-            <marker date="1560821792779" expanded="true" signature="1329:1452" ph="&lt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="0:1726" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot;&#10;                       VerticalAlignment=&quot;Center&quot; Foreground=&quot;White&quot;/&gt;&#10;            &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot; MaxWidth=&quot;200&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; Style=&quot;{StaticResource WeatherComboBox}&quot;&#10;                      IsEnabled=&quot;True&quot;/&gt;&#10;            &lt;Button Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                    Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot;/&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="514:1706" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;100&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; x:Name=&quot;Block&quot; Height=&quot;Auto&quot; Width=&quot;Auto&quot; HorizontalAlignment=&quot;Center&quot;&#10;                       VerticalAlignment=&quot;Center&quot; Foreground=&quot;White&quot;/&gt; &lt;ComboBox x:Name=&quot;InputText&quot; Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Width=&quot;125&quot; Margin=&quot;10&quot;&#10;                      IsEditable=&quot;True&quot; MaxWidth=&quot;200&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; Style=&quot;{StaticResource WeatherComboBox}&quot;&#10;                      IsEnabled=&quot;True&quot;/&gt; &lt;Button Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                    Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot;/&gt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="589:855" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="868:1070" ph="&lt;&lt;RowDefinition Height=&quot;100&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="1096:1277" ph="&lt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="1290:1469" ph="&lt;.../&gt;" />
+            <marker date="1561007979907" expanded="true" signature="1482:1692" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="412" column="12" selection-start-line="412" selection-start-column="12" selection-end-line="412" selection-end-column="12" />
+          <folding>
+            <marker date="1559360987517" expanded="true" signature="0:554" ph="/* --------------------------------------------------------------------------- ... */" />
+            <marker date="1559360987517" expanded="true" signature="1289:47193" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="1296:1403" ph="/// Parsing class used to create an Windows Presentation Platform Tree ... " />
+            <marker date="1559360987517" expanded="true" signature="1431:46500" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="1446:24746" ph="Public Methods" />
+            <marker date="1559360987517" expanded="true" signature="1478:1783" ph="/// Reads XAML using the passed xamlText string, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="1835:2025" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="2035:2396" ph="/// Reads XAML using the passed xamlText, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="2477:2640" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="2650:2932" ph="/// Reads XAML from the passed stream,building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="3070:3249" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="3112:3199" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="3259:3553" ph="/// Reads XAML using the passed XmlReader, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="3694:3900" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="3736:3823" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="3910:4256" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="4423:4764" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="4465:4552" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="4591:4672" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="4774:5237" ph="/// Loads XAML from the given stream, building an object tree. ... " />
+            <marker date="1559360987517" expanded="true" signature="5284:5746" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="5326:5413" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="5483:5691" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="5756:6220" ph="/// Reads XAML using the given XmlReader, building an object tree. ... " />
+            <marker date="1559360987517" expanded="true" signature="6270:6454" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="6312:6399" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="6464:6990" ph="/// Loads XAML from the given stream, building an object tree. ... " />
+            <marker date="1559360987517" expanded="true" signature="7066:7816" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="7108:7195" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="7265:7473" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="7513:7594" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="7894:8254" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="7995:8170" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="8343:15937" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="8385:8472" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="8512:8593" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="8787:9166" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="8916:9026" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="9047:9152" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="9653:14439" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="10148:10333" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="10455:10573" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="10752:11038" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="12091:12180" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="12364:14425" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="12684:13102" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="12780:12888" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="12969:13080" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13186:14081" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13265:13494" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13362:13468" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13559:14059" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13642:13776" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="13841:14033" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="14169:14322" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="14471:14829" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="14693:14756" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="14866:15087" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="14921:15073" ph="/* ThreadStart threadStart = new ThreadStart(ReadXamlAsync); ... */" />
+            <marker date="1559360987517" expanded="true" signature="15104:15169" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="15218:15703" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="15476:15608" ph="/* else ... */" />
+            <marker date="1559360987517" expanded="true" signature="15790:15895" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="16105:16172" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="16268:16343" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="16451:17949" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="16625:17054" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="16859:17013" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17102:17322" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17362:17556" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17573:17939" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17625:17791" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17812:17925" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="17959:18046" ph="///  Post a queue item at default priority ... " />
+            <marker date="1559360987517" expanded="true" signature="18075:18144" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="18154:18247" ph="///  Post a queue item at the specified priority ... " />
+            <marker date="1559360987517" expanded="true" signature="18303:18497" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="18507:18574" ph="///  Dispatch delegate ... " />
+            <marker date="1559360987517" expanded="true" signature="18616:18714" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="18784:18851" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="18908:19030" ph="/// called when in async mode when get a time slice to read and load the Tree ... " />
+            <marker date="1559360987517" expanded="true" signature="19083:23170" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="19109:22036" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="19220:19480" ph="/* bool moreData = true; ... */" />
+            <marker date="1559360987517" expanded="true" signature="20000:20089" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="20300:22022" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="20675:21190" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="20750:20872" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="20933:21113" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="21212:21337" ph="/* Debug.Assert (1 &gt;= RootList.Count, &quot;Multiple roots not supported in async mode&quot;); ... */" />
+            <marker date="1559360987517" expanded="true" signature="21511:21614" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="21671:21746" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="21768:21886" ph="/* decrement and compare with zero so the unitialized -1  and zero case ... */" />
+            <marker date="1559360987517" expanded="true" signature="21929:22004" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22077:22142" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22174:22532" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22301:22378" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22399:22518" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22552:23160" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22630:22707" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22728:23146" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22877:22953" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="22978:23128" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="23213:23989" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="23236:23281" ph="/* if (ParseCompleted != null) ... */" />
+            <marker date="1559360987517" expanded="true" signature="23320:23810" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="24000:24364" ph="/// Aborts the current async load operation if there is one. ... " />
+            <marker date="1559360987517" expanded="true" signature="24398:24454" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="24464:24648" ph="/// This event is fired when either a sync or an async load operation has completed ... " />
+            <marker date="1559360987517" expanded="false" signature="24756:45289" ph="Internal Methods" />
+            <marker date="1559360987517" expanded="true" signature="24858:25102" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="25220:25751" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="25350:25710" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="25837:26026" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="26101:26290" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="26371:26582" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="26889:26954" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="26964:27310" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="27510:28009" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="27552:27639" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="27678:27759" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="28019:28313" ph="/// Reads XAML using the passed XmlReader, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="28495:28727" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="28537:28624" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="28737:29371" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="29380:29514" ph="/* Note this is the internal entry point for XPS.  XPS calls here so ... */" />
+            <marker date="1559360987517" expanded="true" signature="29659:29771" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="29781:30607" ph="/// Reads XAML from the passed stream, building an object tree and returning the ... " />
+            <marker date="1559360987517" expanded="true" signature="30779:34534" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="30906:31060" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="31100:31181" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="31897:32000" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="32048:33471" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="32192:32615" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="32333:32455" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="32480:32597" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="33503:33861" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="33725:33788" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="33881:34499" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="33938:34058" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="34672:36151" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="34721:34802" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="34816:34988" ph="/* In some cases, the application constructor is not run prior to loading, ... */" />
+            <marker date="1559360987517" expanded="true" signature="35488:35754" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="35612:35740" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="35835:35945" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36217:37621" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36259:36346" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36394:36465" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36497:36971" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36849:36912" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="36991:37586" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="37048:37168" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="37631:38655" ph="/// Loads the given baml stream ... " />
+            <marker date="1559360987517" expanded="true" signature="38958:44238" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="39750:39853" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="39870:43403" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="39901:40076" ph="/* If the stream contains info about the Assembly that created it, ... */" />
+            <marker date="1559360987517" expanded="true" signature="40180:40295" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="40540:40695" ph="/* We do not set OwnsStream = true so the Baml2006Reader will not close the stream. ... */" />
+            <marker date="1559360987517" expanded="true" signature="40806:40917" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="41082:41246" ph="/* We don't actually use the GeneratedInternalTypeHelper any more. ... */" />
+            <marker date="1559360987517" expanded="true" signature="41343:42009" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="41385:41543" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="41564:41737" ph="/* This can perform attribute reflection which will fail if the assembly has unresolvable ... */" />
+            <marker date="1559360987517" expanded="true" signature="41777:41991" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="41882:41969" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="42058:42684" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="42343:42533" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="42561:42666" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="42705:42876" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="42983:43112" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="43201:43324" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="43424:44200" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="43481:43601" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="43827:43899" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="44278:44603" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="44317:44411" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="44460:44568" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="44680:44914" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="45006:45252" ph="{...}" />
+            <marker date="1559360987517" expanded="false" signature="45299:46494" ph="Data" />
+            <marker date="1559360987517" expanded="true" signature="46545:47191" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="46915:47185" ph="{...}" />
+            <marker date="1559360987517" expanded="true" signature="47106:47175" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+        <state relative-caret-position="278">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
           <folding>
-            <marker date="1560821896684" expanded="false" signature="6:158" ph="..." />
-            <marker date="1560821896684" expanded="true" signature="177:3728" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="223:3726" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="792:946" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="997:1608" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="1130:1598" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="1229:1584" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="1644:1858" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="1897:2891" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="2948:3119" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="3202:3357" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="3391:3720" ph="{...}" />
-            <marker date="1560821896684" expanded="true" signature="3635:3710" ph="{...}" />
+            <marker date="1561008577031" expanded="false" signature="6:206" ph="..." />
+            <marker date="1561008577031" expanded="true" signature="225:3923" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="271:3921" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="881:1035" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="1086:1697" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="1219:1687" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="1318:1673" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="1733:1947" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="1986:2980" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="3037:3208" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="3291:3490" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="3524:3915" ph="{...}" />
+            <marker date="1561008577031" expanded="true" signature="3825:3905" ph="{...}" />
           </folding>
         </state>
       </provider>

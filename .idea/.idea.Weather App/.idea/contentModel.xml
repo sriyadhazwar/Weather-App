@@ -9,6 +9,9 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Controls" t="Include">
+          <e p="WeatherButton.cs" t="Include" />
+        </e>
         <e p="Display.csproj" t="IncludeRecursive" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
@@ -23,6 +26,7 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="style.xaml" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Weather App.sln" t="IncludeFlat" />

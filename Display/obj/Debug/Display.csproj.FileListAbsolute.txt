@@ -24,3 +24,5 @@ C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.pdb
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\AutoCompleteTextBoxWPF.dll
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Pages\DisplayPage.g.cs
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Pages\DisplayPage.baml
+C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\style.baml
+C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\App.baml

@@ -6,6 +6,7 @@
       xmlns:local="clr-namespace:Display"
       mc:Ignorable="d"
       Background="#263859"
+      FontFamily="Semoe UI Light" FontSize="18"
       Title="Weather" Height="450" Width="800">
       
       <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -20,10 +21,12 @@
                   <RowDefinition Height="Auto"/>
                   <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
+            
             <TextBlock Grid.Column="0" Grid.Row="0" x:Name="Block" Height="Auto" Width="Auto" HorizontalAlignment="Center"
                        VerticalAlignment="Center" Foreground="White"/>
-            <Button Grid.Column="1" Grid.Row="1" Content="Get Weather" Click="GetWeather_OnClick"/>
-            <ComboBox x:Name="InputText" Grid.Column="0" Grid.Row="2" Width="125" Margin="10"
-                      IsEditable="True"/>
+            <ComboBox x:Name="InputText" Grid.Column="0" Grid.Row="1" Width="125" Margin="10"
+                      IsEditable="True" MaxWidth="200" MinWidth="200" Padding="3" FontSize="14"/>
+            <Button Grid.Column="2" Grid.Row="1" Content="Get Weather" Click="GetWeather_OnClick" Padding="5"
+                    Width="100" FontSize="12" Margin="10, 0, 0, 0" Style="{StaticResource RoundedButtonStyle}"/>
       </Grid>            
 </Page>

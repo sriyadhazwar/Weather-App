@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using Newtonsoft.Json;
@@ -12,8 +14,9 @@ namespace Display
     {
         private Frame frame;
         
-        private string cityUrl;
+        private string cityUrl = "";
         private List<CityInfo> cities;
+        private List<string> names;
         
         private int temperature;
         private int minTemp;
@@ -104,6 +107,7 @@ namespace Display
         private void GetWeather_OnClick(object sender, RoutedEventArgs e)
         {
             SetCity(InputText.Text);
+            if (cityUrl.Equals("")) return;
             InfoProcessor.CityUrl = cityUrl;
             Block.Text = "";
             LoadInfo();
@@ -112,12 +116,19 @@ namespace Display
         private void GetCities()
         {
             cities = new List<CityInfo>();
+            cities.Sort();
             string jsonString = File.ReadAllText("cities.json");
             cities = JsonConvert.DeserializeObject<List<CityInfo>>(jsonString);
-
+            names = new List<string>();
+                
             foreach (var VARIABLE in cities)
             {
-                InputText.Items.Add(VARIABLE.City);
+                names.Add(VARIABLE.City);
+            }
+            names.Sort();
+            foreach (var VARIABLE in names)
+            {
+                InputText.Items.Add(VARIABLE);
             }
         }
     }
