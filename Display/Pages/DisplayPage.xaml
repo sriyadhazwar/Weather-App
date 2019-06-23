@@ -7,26 +7,50 @@
       mc:Ignorable="d"
       Background="#263859"
       FontFamily="Semoe UI Light" FontSize="18"
-      Title="Weather" Height="450" Width="800">
+      Title="Weather">
       
-      <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+      <Grid>
             <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="20"/>
                   <ColumnDefinition Width="Auto"/>
                   <ColumnDefinition Width="Auto"/>
                   <ColumnDefinition Width="Auto"/>
                   <ColumnDefinition Width="Auto"/>
+                  <ColumnDefinition Width="20"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                  <RowDefinition Height="100"/>
+                  <RowDefinition Height="20"/>
                   <RowDefinition Height="Auto"/>
                   <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="Auto"/>
+                  <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
             
-            <TextBlock Grid.Column="0" Grid.Row="0" x:Name="Block" Height="Auto" Width="Auto" HorizontalAlignment="Center"
-                       VerticalAlignment="Center" Foreground="White"/>
-            <ComboBox x:Name="InputText" Grid.Column="0" Grid.Row="1" Width="125" Margin="10"
-                      IsEditable="True" MaxWidth="200" MinWidth="200" Padding="3" FontSize="14"/>
-            <Button Grid.Column="2" Grid.Row="1" Content="Get Weather" Click="GetWeather_OnClick" Padding="5"
-                    Width="100" FontSize="12" Margin="10, 0, 0, 0" Style="{StaticResource RoundedButtonStyle}"/>
+            <StackPanel Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                  <TextBlock Text="Weather App" HorizontalAlignment="Center" Foreground="Cyan" FontSize="48" FontWeight="SemiBold"
+                             Margin="450, 10, 10, 0"/>
+            
+                  <Image HorizontalAlignment="Left" Source="../bin/Debug/weather_logo.png"/>
+            </StackPanel>
+            
+            <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal">
+                  <ComboBox x:Name="InputText" Width="125" Margin="550, 20, 10, 10" Text="Search city" Height="35"
+                            IsEditable="True" MinWidth="200" Padding="3" FontSize="14" VerticalContentAlignment="Center"/>
+            
+                  <Button Content="Get Weather" Click="GetWeather_OnClick" Padding="5"
+                          Width="100" FontSize="12" Margin="10, 0, 0, 0" Style="{StaticResource RoundedButtonStyle}" Height="35"/>
+            </StackPanel>
+            
+            <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Horizontal" Margin="0, 25, 0, 0" HorizontalAlignment="Center">
+                  <TextBlock x:Name="Block" HorizontalAlignment="Center" Width="333" Height="333" Margin="350, 0, 0, 0"
+                             VerticalAlignment="Center" Background="transparent" Foreground="White" FontSize="24" FontWeight="SemiBold"/>
+                  <Label Content="Image of current weather" Background="transparent" MinWidth="333" MinHeight="333" Margin="10, 0, 0, 0"/>
+            </StackPanel>
+            
+            <StackPanel Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal">
+                  
+            </StackPanel>
       </Grid>            
 </Page>

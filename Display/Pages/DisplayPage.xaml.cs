@@ -15,6 +15,7 @@ namespace Display
         private Frame frame;
         
         private string cityUrl = "";
+        private string prevurl = "";
         private List<CityInfo> cities;
         private List<string> names;
         
@@ -63,10 +64,16 @@ namespace Display
 
         private void DisplayData()
         {
-            Block.Text += cityName + "\n";
             Block.Text += description + "\n";
             Block.Text += temperature + "F\n";
-            Block.Text += cloudPercentage + "% cloudy\n";
+            Block.Text += maxtemp + " max\n";
+            Block.Text += minTemp + " min\n";
+            Block.Text += humidity + " humidity\n";
+            Block.Text += pressure + " pressure\n";
+            Block.Text += weatherType + " weather type\n";
+            Block.Text += windSpeed + " wind speed\n";
+            Block.Text += windDegrees + " wind degree\n";
+            Block.Text += gust + " gust\n";
         }
 
         private async void LoadInfo()
@@ -107,8 +114,10 @@ namespace Display
         private void GetWeather_OnClick(object sender, RoutedEventArgs e)
         {
             SetCity(InputText.Text);
+            if (cityUrl.Equals(prevurl)) return;
             if (cityUrl.Equals("")) return;
             InfoProcessor.CityUrl = cityUrl;
+            prevurl = cityUrl;
             Block.Text = "";
             LoadInfo();
         }
@@ -120,7 +129,7 @@ namespace Display
             string jsonString = File.ReadAllText("cities.json");
             cities = JsonConvert.DeserializeObject<List<CityInfo>>(jsonString);
             names = new List<string>();
-                
+                    
             foreach (var VARIABLE in cities)
             {
                 names.Add(VARIABLE.City);
@@ -128,7 +137,10 @@ namespace Display
             names.Sort();
             foreach (var VARIABLE in names)
             {
-                InputText.Items.Add(VARIABLE);
+                if (!InputText.Items.Contains(VARIABLE))
+                {
+                    InputText.Items.Add(VARIABLE);
+                }
             }
         }
     }

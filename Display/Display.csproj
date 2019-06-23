@@ -108,5 +108,21 @@
       <Name>WeatherAPI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AutoCompleteTextBoxWPF.dll" />
+    <Content Include="bin\Debug\cities.json" />
+    <Content Include="bin\Debug\Display.exe" />
+    <Content Include="bin\Debug\Display.exe.config" />
+    <Content Include="bin\Debug\Display.pdb" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\Debug\WeatherAPI.dll" />
+    <Content Include="bin\Debug\WeatherAPI.pdb" />
+    <Content Include="bin\Debug\weather_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

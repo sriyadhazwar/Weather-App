@@ -8,7 +8,22 @@
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="AutoCompleteTextBoxWPF.dll" t="Include" />
+            <e p="cities.json" t="Include" />
+            <e p="Display.exe" t="Include" />
+            <e p="Display.exe.config" t="Include" />
+            <e p="Display.pdb" t="Include" />
+            <e p="Newtonsoft.Json.dll" t="Include" />
+            <e p="Newtonsoft.Json.xml" t="Include" />
+            <e p="System.Net.Http.Formatting.dll" t="Include" />
+            <e p="System.Net.Http.Formatting.xml" t="Include" />
+            <e p="weather_logo.png" t="Include" />
+            <e p="WeatherAPI.dll" t="Include" />
+            <e p="WeatherAPI.pdb" t="Include" />
+          </e>
+        </e>
         <e p="Controls" t="Include">
           <e p="WeatherButton.cs" t="Include" />
         </e>

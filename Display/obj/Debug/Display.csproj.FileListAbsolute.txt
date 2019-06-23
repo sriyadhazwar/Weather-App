@@ -1,8 +1,6 @@
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\Display.exe.config
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\Display.exe
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\Display.pdb
-C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\Newtonsoft.Json.dll
-C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\WeatherAPI.dll
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\WeatherAPI.pdb
 C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\Newtonsoft.Json.xml
@@ -21,8 +19,9 @@ C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.csproj.CoreCo
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.csproj.CopyComplete
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.exe
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display.pdb
-C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\AutoCompleteTextBoxWPF.dll
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Pages\DisplayPage.g.cs
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Pages\DisplayPage.baml
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\style.baml
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\App.baml
+C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Display_Content.g.cs
+C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\bin\Debug\weather_logo.png
