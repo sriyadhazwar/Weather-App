@@ -80,8 +80,8 @@ namespace Display
         {
             var mainInfo = await InfoProcessor.LoadMainResults();
             temperature = ToFahrenheit(mainInfo.Temp);
-            minTemp = ToFahrenheit(mainInfo.Min_Temp);
-            maxtemp = ToFahrenheit(mainInfo.Max_Temp);
+            minTemp = ToFahrenheit(mainInfo.Temp_Min);
+            maxtemp = ToFahrenheit(mainInfo.Temp_Max);
             pressure = mainInfo.Pressure;
             humidity = mainInfo.Humidity;
 
