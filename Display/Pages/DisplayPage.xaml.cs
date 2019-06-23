@@ -12,8 +12,6 @@ namespace Display
 {
     public partial class DisplayPage : Page
     {
-        private Frame frame;
-        
         private string cityUrl = "";
         private string prevurl = "";
         private List<CityInfo> cities;
@@ -36,9 +34,8 @@ namespace Display
 
         private string cityName;
         
-        public DisplayPage(Frame frame)
+        public DisplayPage()
         {
-            this.frame = frame;
             InitializeComponent();
             GetCities();
             ApiHelper.InitializeClient();

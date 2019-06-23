@@ -47,10 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiHelper.cs" />
-    <Compile Include="CityInfo.cs" />
-    <Compile Include="HourlyProcessor.cs" />
-    <Compile Include="InfoProcessor.cs" />
+    <Compile Include="Api\ApiHelper.cs" />
+    <Compile Include="Api\InfoProcessor.cs" />
+    <Compile Include="Models\CityInfo.cs" />
     <Compile Include="Models\CityNameModel.cs" />
     <Compile Include="Models\CloudsModel.cs" />
     <Compile Include="Models\MainModel.cs" />

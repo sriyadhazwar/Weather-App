@@ -9,12 +9,12 @@ Display
 none
 false
 DEBUG;TRACE
-C:\Users\justi\RiderProjects\Weather App\Display\App.xaml
-3-72551471
+C:\Users\justi\RiderProjects\Weather App\Display\Application\App.xaml
+31648838712
 12-739041101
-6-174688892
+6669715785
 161730640641
-MainWindow.xaml;Pages\DisplayPage.xaml;style.xaml;
+Application\MainWindow.xaml;Application\style.xaml;Pages\DisplayPage.xaml;
 
 False
 

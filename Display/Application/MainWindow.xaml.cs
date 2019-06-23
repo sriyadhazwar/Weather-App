@@ -5,7 +5,7 @@
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Content = new DisplayPage(MainFrame);
+            MainFrame.Content = new DisplayPage();
         }
     }
 }

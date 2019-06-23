@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="" />
+    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Application/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Application/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Display.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Display.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Application/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Application/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Pages/DisplayPage.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display/style.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Application/style.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/ApiHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/Api/ApiHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/CityInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/Models/CityInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/Api/InfoProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/WeatherAPI.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,27 +35,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="60">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <marker date="1561269899560" expanded="false" signature="6:206" ph="..." />
-                <marker date="1561269899560" expanded="true" signature="225:4613" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="271:4611" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="918:1072" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="1123:1734" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="1256:1724" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="1355:1710" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="1770:2295" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="2334:3328" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="3385:3556" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="3639:3918" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="3952:4605" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="4283:4353" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="4423:4595" ph="{...}" />
-                <marker date="1561269899560" expanded="true" signature="4494:4581" ph="{...}" />
+                <marker date="1561270902694" expanded="false" signature="6:206" ph="..." />
+                <marker date="1561270902694" expanded="true" signature="225:4532" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="271:4530" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="869:991" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="1042:1653" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="1175:1643" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="1274:1629" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="1689:2214" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="2253:3247" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="3304:3475" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="3558:3837" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="3871:4524" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="4202:4272" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="4342:4514" ph="{...}" />
+                <marker date="1561270902694" expanded="true" signature="4413:4500" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Display/Application/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <marker date="1561270902711" expanded="true" signature="17:203" ph="{...}" />
+                <marker date="1561270902711" expanded="true" signature="55:201" ph="{...}" />
+                <marker date="1561270902711" expanded="true" signature="89:195" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,21 +78,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+            <state relative-caret-position="-134">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <marker date="1561270174227" expanded="true" signature="0:3082" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="489:3062" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="508:872" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="885:1280" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="1306:1739" ph="&lt;&lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt; &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="1440:1607" ph="&lt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="1765:2326" ph="&lt;&lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt; &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="1850:2069" ph="&lt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="2101:2300" ph="&lt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="2352:2891" ph="&lt;&lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt; &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="2487:2726" ph="&lt;.../&gt;" />
-                <marker date="1561270174227" expanded="true" signature="2917:3048" ph="&lt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="0:3078" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="489:3058" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="508:872" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="885:1280" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="1306:1739" ph="&lt;&lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt; &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="1440:1607" ph="&lt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="1765:2326" ph="&lt;&lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt; &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="1850:2069" ph="&lt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="2101:2300" ph="&lt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="2352:2891" ph="&lt;&lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt; &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;.../&gt;" />
+                <marker date="1561270670613" expanded="true" signature="2487:2726" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -65,29 +103,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Display/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Application/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Application/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Controls/Page.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Display/style.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Application/style.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/ControlTemplate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/Controls/WeatherButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/MainModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/Api/InfoProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controls/WeatherButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WeatherModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03761.00/Source/wpf/src/Framework/System/Windows/Markup/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/CityInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/Api/ApiHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CityInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CityNameModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/CloudsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/WindModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WeatherAPI/Models/ResultsModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Display/App.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Application/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Display/Application/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -119,8 +156,10 @@
         <option value="$PROJECT_DIR$/Display/Controls/WeatherButton.cs" />
         <option value="$PROJECT_DIR$/Display/App.xaml" />
         <option value="$PROJECT_DIR$/Display/style.xaml" />
-        <option value="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/WeatherAPI/Models/MainModel.cs" />
         <option value="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml" />
+        <option value="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/Display/Application/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -159,7 +198,26 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Display" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Application" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Display" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Application" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
               <item name="WeatherAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Weather App" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WeatherAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -237,12 +295,12 @@
       <workItem from="1560821613713" duration="2670000" />
       <workItem from="1560833738441" duration="1700000" />
       <workItem from="1561007958944" duration="11432000" />
-      <workItem from="1561269242912" duration="1019000" />
+      <workItem from="1561269242912" duration="1651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32072000" />
+    <option name="totallyTimeSpent" value="32704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +315,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15885022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,58 +383,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs</url>
-          <line>81</line>
-          <properties documentPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" initialLine="81">
-            <startOffsets>
-              <option value="2423" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2465" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs</url>
-          <line>82</line>
-          <properties documentPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" initialLine="82">
-            <startOffsets>
-              <option value="2478" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2520" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs</url>
-          <line>83</line>
-          <properties documentPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" initialLine="83">
-            <startOffsets>
-              <option value="2533" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2575" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs</url>
-          <line>84</line>
-          <properties documentPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" initialLine="84">
-            <startOffsets>
-              <option value="2588" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2617" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -436,30 +442,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1560542445127" expanded="true" signature="20:78" ph="{...}" />
-            <marker date="1560542445127" expanded="true" signature="55:76" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeatherAPI/City.cs" />
     <entry file="file://$PROJECT_DIR$/Display/bin/Debug/cities.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/CityInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1560819308969" expanded="true" signature="48:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/00A78D6D-663C-4F46-9D5F-BC222D4BFE01/8a/42c06491/ExceptionDispatchInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -475,18 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <marker date="1560821192721" expanded="true" signature="55:210" ph="{...}" />
-            <marker date="1560821192721" expanded="true" signature="89:204" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/ApiHelper.cs">
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Api/ApiHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
@@ -498,33 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/InfoProcessor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1560730427735" expanded="true" signature="6:66" ph="..." />
-            <marker date="1560730427735" expanded="true" signature="128:2778" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="257:699" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="375:689" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="426:598" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="776:1224" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="894:1214" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="945:1123" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1295:1737" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1413:1727" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1464:1636" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1812:2256" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1930:2246" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="1981:2155" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="2335:2772" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="2453:2762" ph="{...}" />
-            <marker date="1560730427735" expanded="true" signature="2504:2671" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Display/MainWindow.xaml">
+    <entry file="file://$PROJECT_DIR$/Display/Application/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
@@ -557,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Display/App.xaml.cs">
+    <entry file="file://$PROJECT_DIR$/Display/Application/App.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -568,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Display/App.xaml">
+    <entry file="file://$PROJECT_DIR$/Display/Application/App.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
@@ -586,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Display/style.xaml">
+    <entry file="file://$PROJECT_DIR$/Display/Application/style.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
@@ -828,53 +776,109 @@
         <state relative-caret-position="120">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <marker date="1560491987556" expanded="true" signature="20:284" ph="{...}" />
-            <marker date="1560491987556" expanded="true" signature="49:282" ph="{...}" />
+            <marker date="1561270360857" expanded="true" signature="20:284" ph="{...}" />
+            <marker date="1561270360857" expanded="true" signature="49:282" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="-134">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <marker date="1561270174227" expanded="true" signature="0:3082" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="489:3062" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="508:872" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="885:1280" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="1306:1739" ph="&lt;&lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt; &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="1440:1607" ph="&lt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="1765:2326" ph="&lt;&lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt; &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="1850:2069" ph="&lt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="2101:2300" ph="&lt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="2352:2891" ph="&lt;&lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt; &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="2487:2726" ph="&lt;.../&gt;" />
-            <marker date="1561270174227" expanded="true" signature="2917:3048" ph="&lt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="0:3078" ph="&lt;&lt;Grid&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt;&#10;            &#10;            &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;&#10;      &lt;/Grid&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="489:3058" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                  &lt;ColumnDefinition Width=&quot;20&quot;/&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&#10;                  &lt;RowDefinition Height=&quot;20&quot;/&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt;&#10;            &#10;                  &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt;&#10;            &#10;                  &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;3&quot; Orientation=&quot;Horizontal&quot; Margin=&quot;0, 25, 0, 0&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;                  &lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt;&#10;                  &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;&#10;            &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;2&quot; Grid.Row=&quot;4&quot; Grid.ColumnSpan=&quot;2&quot; Orientation=&quot;Horizontal&quot;&gt;&#10;                  &#10;            &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="508:872" ph="&lt;&lt;ColumnDefinition Width=&quot;20&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="885:1280" ph="&lt;&lt;RowDefinition Height=&quot;20&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;Auto&quot;/&gt; &lt;RowDefinition Height=&quot;20&quot;/&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="1306:1739" ph="&lt;&lt;TextBlock Text=&quot;Weather App&quot; HorizontalAlignment=&quot;Center&quot; Foreground=&quot;Cyan&quot; FontSize=&quot;48&quot; FontWeight=&quot;SemiBold&quot;&#10;                             Margin=&quot;450, 10, 10, 0&quot;/&gt; &lt;Image HorizontalAlignment=&quot;Left&quot; Source=&quot;../bin/Debug/weather_logo.png&quot;/&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="1440:1607" ph="&lt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="1765:2326" ph="&lt;&lt;ComboBox x:Name=&quot;InputText&quot; Width=&quot;125&quot; Margin=&quot;550, 20, 10, 10&quot; Text=&quot;Search city&quot; Height=&quot;35&quot;&#10;                            IsEditable=&quot;True&quot; MinWidth=&quot;200&quot; Padding=&quot;3&quot; FontSize=&quot;14&quot; VerticalContentAlignment=&quot;Center&quot;/&gt; &lt;Button Content=&quot;Get Weather&quot; Click=&quot;GetWeather_OnClick&quot; Padding=&quot;5&quot;&#10;                          Width=&quot;100&quot; FontSize=&quot;12&quot; Margin=&quot;10, 0, 0, 0&quot; Style=&quot;{StaticResource RoundedButtonStyle}&quot; Height=&quot;35&quot;/&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="1850:2069" ph="&lt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="2101:2300" ph="&lt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="2352:2891" ph="&lt;&lt;TextBlock x:Name=&quot;Block&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;333&quot; Height=&quot;333&quot; Margin=&quot;350, 0, 0, 0&quot;&#10;                             VerticalAlignment=&quot;Center&quot; Background=&quot;White&quot;/&gt; &lt;Label Content=&quot;Image of current weather&quot; Background=&quot;White&quot; MinWidth=&quot;333&quot; MinHeight=&quot;333&quot; Margin=&quot;10, 0, 0, 0&quot;/&gt;.../&gt;" />
+            <marker date="1561270670613" expanded="true" signature="2487:2726" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/HourlyProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Api/InfoProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1560730427735" expanded="false" signature="6:66" ph="..." />
+            <marker date="1560730427735" expanded="true" signature="88:2780" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="128:2778" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="257:699" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="375:689" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="426:598" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="776:1224" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="894:1214" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="945:1123" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1295:1737" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1413:1727" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1464:1636" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1812:2256" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1930:2246" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="1981:2155" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2335:2772" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2453:2762" ph="{...}" />
+            <marker date="1560730427735" expanded="true" signature="2504:2671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Models/CityInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1560819308969" expanded="true" signature="20:236" ph="{...}" />
+            <marker date="1560819308969" expanded="true" signature="48:234" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="60">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1561269899560" expanded="false" signature="6:206" ph="..." />
-            <marker date="1561269899560" expanded="true" signature="225:4613" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="271:4611" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="918:1072" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="1123:1734" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="1256:1724" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="1355:1710" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="1770:2295" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="2334:3328" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="3385:3556" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="3639:3918" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="3952:4605" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="4283:4353" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="4423:4595" ph="{...}" />
-            <marker date="1561269899560" expanded="true" signature="4494:4581" ph="{...}" />
+            <marker date="1561270902694" expanded="false" signature="6:206" ph="..." />
+            <marker date="1561270902694" expanded="true" signature="225:4532" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="271:4530" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="869:991" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="1042:1653" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="1175:1643" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="1274:1629" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="1689:2214" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="2253:3247" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="3304:3475" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="3558:3837" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="3871:4524" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="4202:4272" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="4342:4514" ph="{...}" />
+            <marker date="1561270902694" expanded="true" signature="4413:4500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display/Application/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <marker date="1561270902711" expanded="true" signature="17:203" ph="{...}" />
+            <marker date="1561270902711" expanded="true" signature="55:201" ph="{...}" />
+            <marker date="1561270902711" expanded="true" signature="89:195" ph="{...}" />
           </folding>
         </state>
       </provider>

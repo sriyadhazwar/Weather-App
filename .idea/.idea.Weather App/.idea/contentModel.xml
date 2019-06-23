@@ -6,8 +6,13 @@
     <e p="C:\Users\justi\RiderProjects\Weather App" t="IncludeFlat">
       <e p="Display" t="IncludeRecursive">
         <e p="App.config" t="Include" />
-        <e p="App.xaml" t="Include" />
-        <e p="App.xaml.cs" t="Include" />
+        <e p="Application" t="Include">
+          <e p="App.xaml" t="Include" />
+          <e p="App.xaml.cs" t="Include" />
+          <e p="MainWindow.xaml" t="Include" />
+          <e p="MainWindow.xaml.cs" t="Include" />
+          <e p="style.xaml" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="AutoCompleteTextBoxWPF.dll" t="Include" />
@@ -28,8 +33,6 @@
           <e p="WeatherButton.cs" t="Include" />
         </e>
         <e p="Display.csproj" t="IncludeRecursive" />
-        <e p="MainWindow.xaml" t="Include" />
-        <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Pages" t="Include">
@@ -41,17 +44,17 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
-        <e p="style.xaml" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Weather App.sln" t="IncludeFlat" />
       <e p="WeatherAPI" t="IncludeRecursive">
-        <e p="ApiHelper.cs" t="Include" />
+        <e p="Api" t="Include">
+          <e p="ApiHelper.cs" t="Include" />
+          <e p="InfoProcessor.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CityInfo.cs" t="Include" />
-        <e p="HourlyProcessor.cs" t="Include" />
-        <e p="InfoProcessor.cs" t="Include" />
         <e p="Models" t="Include">
+          <e p="CityInfo.cs" t="Include" />
           <e p="CityNameModel.cs" t="Include" />
           <e p="CloudsModel.cs" t="Include" />
           <e p="MainModel.cs" t="Include" />
