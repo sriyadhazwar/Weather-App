@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Newtonsoft.Json;
@@ -202,6 +203,14 @@ namespace Display
                 {
                     InputText.Items.Add(VARIABLE);
                 }
+            }
+        }
+
+        private void OnKeyPressed(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                GetWeather_OnClick(sender, e);
             }
         }
     }

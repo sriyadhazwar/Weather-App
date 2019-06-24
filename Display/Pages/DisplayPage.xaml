@@ -6,6 +6,7 @@
       xmlns:local="clr-namespace:Display"
       mc:Ignorable="d"
       Background="#263859"
+      KeyDown="OnKeyPressed"
       FontFamily="Semoe UI Light" FontSize="18"
       Title="Weather">
       
