@@ -45,6 +45,11 @@
           <e p="WeatherButton.cs" t="Include" />
         </e>
         <e p="Display.csproj" t="IncludeRecursive" />
+        <e p="Images" t="Include">
+          <e p="Screenshot (138).png" t="Include" />
+          <e p="Screenshot (139).png" t="Include" />
+          <e p="Screenshot (140).png" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Pages" t="Include">

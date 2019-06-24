@@ -145,6 +145,9 @@
     <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
     <Content Include="bin\Debug\WeatherAPI.dll" />
     <Content Include="bin\Debug\WeatherAPI.pdb" />
+    <Content Include="Images\Screenshot (138).png" />
+    <Content Include="Images\Screenshot (139).png" />
+    <Content Include="Images\Screenshot (140).png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="Application\App.xaml">
