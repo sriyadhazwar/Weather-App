@@ -32,7 +32,7 @@
                   <TextBlock Text="Weather App" HorizontalAlignment="Center" Foreground="Cyan" FontSize="48" FontWeight="SemiBold"
                              Margin="475, 100, 10, 0"/>
             
-                  <Image HorizontalAlignment="Left" Source="../bin/Debug/weather_logo.png"/>
+                  <Image HorizontalAlignment="Left" Source="../bin/Debug/Images/weather_logo.png"/>
             </StackPanel>
             
             <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal">

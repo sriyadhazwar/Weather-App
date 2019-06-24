@@ -85,7 +85,44 @@ namespace Display
             HumidityTextBlock.Background = new SolidColorBrush(Color.FromRgb(40,195,212));
             WindSpeedTextBlock.Background = new SolidColorBrush(Color.FromRgb(174,231,232));
             
-            WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/cloudy.png", UriKind.RelativeOrAbsolute));
+            SetWeatherImage(weatherType);
+        }
+
+        private void SetWeatherImage(string weatherType)
+        {
+            switch (weatherType)
+            {
+                case "Clear":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/clear_sky.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Clouds":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/cloudy.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Few clouds":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/few_clouds.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Scattered clouds":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/cloudy.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Broken clouds":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/few_clouds.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Shower rain":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/shower_rain.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Rain":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/rain.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Thunderstorm":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/thunderstorm.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Snow":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/snow.png", UriKind.RelativeOrAbsolute));
+                    break;
+                case "Mist":
+                    WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/Images/mist.png", UriKind.RelativeOrAbsolute));
+                    break;
+            }
         }
         
 
@@ -142,6 +179,7 @@ namespace Display
             WindSpeedLabel.Text = "";
             CloudPercentTextBlock.Text = "";
             CloudPercentLabel.Text = "";
+            WeatherImage.Source = null;
             LoadInfo();
         }
 

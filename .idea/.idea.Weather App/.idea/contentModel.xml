@@ -19,15 +19,24 @@
           <e p="Debug" t="Include">
             <e p="AutoCompleteTextBoxWPF.dll" t="Include" />
             <e p="cities.json" t="Include" />
-            <e p="cloudy.png" t="Include" />
             <e p="Display.exe" t="Include" />
             <e p="Display.exe.config" t="Include" />
             <e p="Display.pdb" t="Include" />
+            <e p="Images" t="Include">
+              <e p="clear_sky.png" t="Include" />
+              <e p="cloudy.png" t="Include" />
+              <e p="few_clouds.png" t="Include" />
+              <e p="mist.png" t="Include" />
+              <e p="rain.png" t="Include" />
+              <e p="shower_rain.png" t="Include" />
+              <e p="snow.png" t="Include" />
+              <e p="thunderstorm.png" t="Include" />
+              <e p="weather_logo.png" t="Include" />
+            </e>
             <e p="Newtonsoft.Json.dll" t="Include" />
             <e p="Newtonsoft.Json.xml" t="Include" />
             <e p="System.Net.Http.Formatting.dll" t="Include" />
             <e p="System.Net.Http.Formatting.xml" t="Include" />
-            <e p="weather_logo.png" t="Include" />
             <e p="WeatherAPI.dll" t="Include" />
             <e p="WeatherAPI.pdb" t="Include" />
           </e>

@@ -109,21 +109,42 @@
     <Content Include=".gitignore" />
     <Content Include="bin\Debug\AutoCompleteTextBoxWPF.dll" />
     <Content Include="bin\Debug\cities.json" />
-    <Content Include="bin\Debug\cloudy.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="bin\Debug\Display.exe" />
     <Content Include="bin\Debug\Display.exe.config" />
     <Content Include="bin\Debug\Display.pdb" />
+    <Content Include="bin\Debug\Images\clear_sky.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\cloudy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\few_clouds.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\mist.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\rain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\shower_rain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\snow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\thunderstorm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Images\weather_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="bin\Debug\Newtonsoft.Json.dll" />
     <Content Include="bin\Debug\Newtonsoft.Json.xml" />
     <Content Include="bin\Debug\System.Net.Http.Formatting.dll" />
     <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
     <Content Include="bin\Debug\WeatherAPI.dll" />
     <Content Include="bin\Debug\WeatherAPI.pdb" />
-    <Content Include="bin\Debug\weather_logo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="Application\App.xaml">
