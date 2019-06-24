@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Display/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Display/ApiKey.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Weather App/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/Display.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Display.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/bin/Debug/Display.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_Content.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_Content.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_Content.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_Content.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Display/obj/Debug/Display_MarkupCompile.cache" afterDir="false" />
-    </list>
+    <list default="true" id="854c320c-1b21-496a-868b-5461cc88fc50" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,12 +287,12 @@
       <workItem from="1560833738441" duration="1700000" />
       <workItem from="1561007958944" duration="11432000" />
       <workItem from="1561269242912" duration="1718000" />
-      <workItem from="1561347699633" duration="1138000" />
+      <workItem from="1561347699633" duration="2003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33909000" />
+    <option name="totallyTimeSpent" value="34774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,19 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherAPI/Api/ApiHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
-          <folding>
-            <marker date="1560492495231" expanded="true" signature="6:53" ph="..." />
-            <marker date="1560492495231" expanded="true" signature="75:457" ph="{...}" />
-            <marker date="1560492495231" expanded="true" signature="104:455" ph="{...}" />
-            <marker date="1560492495231" expanded="true" signature="214:449" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Display/Pages/DisplayPage.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -893,6 +864,19 @@
             <marker date="1561348953291" expanded="true" signature="4106:4176" ph="{...}" />
             <marker date="1561348953291" expanded="true" signature="4246:4418" ph="{...}" />
             <marker date="1561348953291" expanded="true" signature="4317:4404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherAPI/Api/ApiHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+          <folding>
+            <marker date="1560492495231" expanded="true" signature="6:53" ph="..." />
+            <marker date="1560492495231" expanded="true" signature="75:457" ph="{...}" />
+            <marker date="1560492495231" expanded="true" signature="104:455" ph="{...}" />
+            <marker date="1560492495231" expanded="true" signature="214:449" ph="{...}" />
           </folding>
         </state>
       </provider>
