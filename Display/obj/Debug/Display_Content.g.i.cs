@@ -11,6 +11,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute(".gitignore")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/autocompletetextboxwpf.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/cities.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/cloudy.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/display.exe")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/display.exe.config")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("bin/debug/display.pdb")]

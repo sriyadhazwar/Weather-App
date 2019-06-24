@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using Newtonsoft.Json;
 using WeatherAPI;
 
@@ -18,18 +20,11 @@ namespace Display
         private int temperature;
         private int minTemp;
         private int maxtemp;
-        private double pressure;
         private double humidity;
-
         private string weatherType;
         private string description;
-
         private int windSpeed;
-        private int windDegrees;
-        private double gust;
-
         private int cloudPercentage;
-
         private string cityName;
         
         public DisplayPage()
@@ -58,17 +53,41 @@ namespace Display
 
         private void DisplayData()
         {
-            Block.Text += description + "\n";
-            Block.Text += temperature + "F\n";
-            Block.Text += maxtemp + " max\n";
-            Block.Text += minTemp + " min\n";
-            Block.Text += humidity + " humidity\n";
-            Block.Text += pressure + " pressure\n";
-            Block.Text += weatherType + " weather type\n";
-            Block.Text += windSpeed + " wind speed\n";
-            Block.Text += windDegrees + " wind degree\n";
-            Block.Text += gust + " gust\n";
+            CityNameLabel.Text = "City";
+            DescriptionLabel.Text = "Description";
+            TempLabel.Text = "Temperature";
+            MinMaxLabel.Text = "Min/Max";
+            CloudPercentLabel.Text = "Clouds";
+            HumidityLabel.Text = "Humidity";
+            WindSpeedLabel.Text = "Wind";
+            
+            CityNameTextBlock.Text = cityName;
+            DescriptionTextBlock.Text = description;
+            TemperatureTextBlock.Text = temperature + "°F";
+            MaxMinTextBlock.Text = $"{minTemp}/{maxtemp}°F";
+            CloudPercentTextBlock.Text = $"{cloudPercentage}%";
+            HumidityTextBlock.Text = $"{humidity}%";
+            WindSpeedTextBlock.Text = $"{windSpeed}mph";
+
+            CityNameLabel.Width = 275;
+            DescriptionLabel.Width = 275;
+            TempLabel.Width = 275;
+            MinMaxLabel.Width = 275;
+            HumidityLabel.Width = 275;
+            CloudPercentLabel.Width = 275;
+            WindSpeedLabel.Width = 275;
+            
+            CityNameTextBlock.Background = new SolidColorBrush(Color.FromRgb(174,231,232));
+            DescriptionTextBlock.Background = new SolidColorBrush(Color.FromRgb(40,195,212));
+            TemperatureTextBlock.Background = new SolidColorBrush(Color.FromRgb(174,231,232));
+            MaxMinTextBlock.Background = new SolidColorBrush(Color.FromRgb(40,195,212));
+            CloudPercentTextBlock.Background = new SolidColorBrush(Color.FromRgb(174,231,232));
+            HumidityTextBlock.Background = new SolidColorBrush(Color.FromRgb(40,195,212));
+            WindSpeedTextBlock.Background = new SolidColorBrush(Color.FromRgb(174,231,232));
+            
+            WeatherImage.Source = new BitmapImage(new Uri("/bin/Debug/cloudy.png", UriKind.RelativeOrAbsolute));
         }
+        
 
         private async void LoadInfo()
         {
@@ -76,7 +95,6 @@ namespace Display
             temperature = ToFahrenheit(mainInfo.Temp);
             minTemp = ToFahrenheit(mainInfo.Temp_Min);
             maxtemp = ToFahrenheit(mainInfo.Temp_Max);
-            pressure = mainInfo.Pressure;
             humidity = mainInfo.Humidity;
 
             var weatherInfo = await InfoProcessor.LoadWeatherResults();
@@ -85,8 +103,6 @@ namespace Display
 
             var windInfo = await InfoProcessor.LoadWindResults();
             windSpeed = (int) Math.Round(windInfo.Speed);
-            windDegrees = (int) Math.Round(windInfo.Deg);
-            gust = windInfo.Gust;
 
             var cloudsInfo = await InfoProcessor.LoadCloudsResults();
             cloudPercentage = cloudsInfo.All;
@@ -112,7 +128,20 @@ namespace Display
             if (cityUrl.Equals("")) return;
             InfoProcessor.CityUrl = cityUrl;
             prevurl = cityUrl;
-            Block.Text = "";
+            CityNameTextBlock.Text = "";
+            DescriptionTextBlock.Text = "";
+            TemperatureTextBlock.Text = "";
+            MaxMinTextBlock.Text = "";
+            WindSpeedTextBlock.Text = "";
+            HumidityTextBlock.Text = "";
+            CityNameLabel.Text = "";
+            DescriptionLabel.Text = "";
+            TempLabel.Text = "";
+            MinMaxLabel.Text = "";
+            HumidityLabel.Text = "";
+            WindSpeedLabel.Text = "";
+            CloudPercentTextBlock.Text = "";
+            CloudPercentLabel.Text = "";
             LoadInfo();
         }
 

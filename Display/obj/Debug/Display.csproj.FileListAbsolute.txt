@@ -25,3 +25,4 @@ C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Application\MainWindo
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Application\App.g.cs
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Application\App.baml
 C:\Users\justi\RiderProjects\Weather App\Display\obj\Debug\Application\MainWindow.baml
+C:\Users\justi\RiderProjects\Weather App\Display\bin\Debug\bin\Debug\cloudy.png

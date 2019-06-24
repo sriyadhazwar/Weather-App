@@ -19,6 +19,7 @@
           <e p="Debug" t="Include">
             <e p="AutoCompleteTextBoxWPF.dll" t="Include" />
             <e p="cities.json" t="Include" />
+            <e p="cloudy.png" t="Include" />
             <e p="Display.exe" t="Include" />
             <e p="Display.exe.config" t="Include" />
             <e p="Display.pdb" t="Include" />

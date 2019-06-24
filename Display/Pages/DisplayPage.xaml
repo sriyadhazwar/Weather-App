@@ -30,7 +30,7 @@
             
             <StackPanel Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
                   <TextBlock Text="Weather App" HorizontalAlignment="Center" Foreground="Cyan" FontSize="48" FontWeight="SemiBold"
-                             Margin="450, 10, 10, 0"/>
+                             Margin="475, 100, 10, 0"/>
             
                   <Image HorizontalAlignment="Left" Source="../bin/Debug/weather_logo.png"/>
             </StackPanel>
@@ -44,11 +44,27 @@
             </StackPanel>
             
             <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Horizontal" Margin="0, 25, 0, 0" HorizontalAlignment="Center">
-                  <TextBlock x:Name="Block" HorizontalAlignment="Center" Width="333" Height="333" Margin="350, 0, 0, 0"
-                             VerticalAlignment="Center" Background="transparent" Foreground="White" FontSize="24" FontWeight="SemiBold"/>
-                  <Label Content="Image of current weather" Background="transparent" MinWidth="333" MinHeight="333" Margin="10, 0, 0, 0"/>
+                  <StackPanel Orientation="Horizontal" Margin="250, 25, 0, 0">
+                        <StackPanel Orientation="Vertical">
+                              <TextBlock x:Name="CityNameLabel" Padding="2.5" Background="#aee7e8" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="DescriptionLabel" Padding="2.5" Background="#28c3d4" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="TempLabel" Padding="2.5" Background="#aee7e8" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="MinMaxLabel" Padding="2.5" Background="#28c3d4" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="CloudPercentLabel" Padding="2.5" Background="#aee7e8" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="HumidityLabel" Padding="2.5" Background="#28c3d4" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                              <TextBlock x:Name="WindSpeedLabel" Padding="2.5" Background="#aee7e8" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="0"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                              <TextBlock x:Name="CityNameTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="DescriptionTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="TemperatureTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="MaxMinTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="CloudPercentTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="HumidityTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                              <TextBlock x:Name="WindSpeedTextBlock" Padding="2.5" Background="Transparent" FontSize="24" Foreground="Black" HorizontalAlignment="Left" Width="150"/>
+                        </StackPanel>
+                  </StackPanel>
+                  <Image x:Name="WeatherImage" Margin="100, 0, 0, 0"/>
             </StackPanel>
-            
-            <Button Content="Settings" Style="{StaticResource RoundedButtonStyle}" Grid.Column="2" Grid.Row="4" Width="100" Height="Auto"/>
       </Grid>            
 </Page>

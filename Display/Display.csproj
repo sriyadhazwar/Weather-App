@@ -109,6 +109,9 @@
     <Content Include=".gitignore" />
     <Content Include="bin\Debug\AutoCompleteTextBoxWPF.dll" />
     <Content Include="bin\Debug\cities.json" />
+    <Content Include="bin\Debug\cloudy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="bin\Debug\Display.exe" />
     <Content Include="bin\Debug\Display.exe.config" />
     <Content Include="bin\Debug\Display.pdb" />
