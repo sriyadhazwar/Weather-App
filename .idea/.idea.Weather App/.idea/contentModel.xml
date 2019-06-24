@@ -5,6 +5,8 @@
     <e p="C:\Users\justi\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Weather App.-2123986392.00" t="ExcludeRecursive" />
     <e p="C:\Users\justi\RiderProjects\Weather App" t="IncludeFlat">
       <e p="Display" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="ApiKey.cs" t="Include" />
         <e p="App.config" t="Include" />
         <e p="Application" t="Include">
           <e p="App.xaml" t="Include" />

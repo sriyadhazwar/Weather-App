@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.IO;
-using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using Newtonsoft.Json;
@@ -52,8 +50,7 @@ namespace Display
                 {
                     longitude = cities[i].Longitude;
                     latitude = cities[i].Latitude;
-                    cityUrl = $"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid=" +
-                               "18e0836ea2ae7d4ee1a6d43dfb38e393";
+                    cityUrl = $"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid=" + ApiKey.ApiKeyCode;
                     return;
                 }
             }
